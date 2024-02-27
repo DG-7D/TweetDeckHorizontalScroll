@@ -1,0 +1,16 @@
+{
+    "name": "TweetDeck水平スクロール",
+    "description": "TweetDeckの上部でスクロールすることで水平スクロールできるようにします",
+    "manifest_version": 3,
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/i/tweetdeck"
+            ],
+            "js": [
+                "index.js"
+            ]
+        }
+    ]
+}
